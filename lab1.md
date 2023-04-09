@@ -3,7 +3,7 @@
 
 * If you don't have Virtual Studio code already on your computer, you should install it using their website installation link [https://code.visualstudio.com/](https://code.visualstudio.com/)
 * Once you install the version suited for your computer OS, it should look like this:
-![Image](vscodescreen.jpg)
+![Image](vs.jpg)
 
 **Note**: If you already had VS code installed on your computer: you can skip this step!
 
@@ -19,4 +19,11 @@ Many people had trouble with this section so here are a couple reminders:
 * Make sure you reset your account's password correctly **otherwise** you'll receive an incorrect message
 
 Assuming the above is followed, here is the output when you've succesfully logged into the terminal!
-![Image]
+![Image](vscodescreen.jpg)
+
+---
+3. Running Commands
+* This section was pretty straightforward where all I needed to do was type in different commands and see what they did
+
+Heres an example of some of these commands and their outputs: 
+![Image]()
