@@ -8,3 +8,4 @@ Hello, world!
 ## Heading 2 
 Hello, world!
 
+![Image](batman.jpg)
