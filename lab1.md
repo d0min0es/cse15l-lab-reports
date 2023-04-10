@@ -24,6 +24,10 @@ Assuming the above is followed, here is the output when you've succesfully logge
 ---
 3. Running Commands
 * This section was pretty straightforward where all I needed to do was type in different commands and see what they did
+* **tip**: to logout from connection to server, enter ctrd + d into terminal
 
 Heres an example of some of these commands and their outputs: 
-![Image]()
+![Image](commands.jpg)
+
+---
+After this point, you will have successfully logged into the course specific account on the ieng6! 
