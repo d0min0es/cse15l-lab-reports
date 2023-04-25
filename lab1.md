@@ -10,7 +10,7 @@
 ---
 Remotely Conntecting to Course-Specific Account
 
-* You start by opening terminal either on your computer's terminal or on VS code and styping in ssh followed by your course-specific account name (formatted like this cs15lsp23zz@ieng6.ucsd.edu)
+* You start by opening terminal either on your computer's terminal or on VS code and styping in ssh followed by your course-specific account name formatted like this: `$ ssh cs15lsp23zz@ieng6.ucsd.edu`
 * Since it was my first time connecting to the server, I received a confirmation message asking if I wanted to connect to the server (said yes)
 * It also asks for your account's password, so I filled that in next
 
