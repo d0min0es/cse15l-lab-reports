@@ -24,7 +24,7 @@ Assuming the above is followed, here is the output when you've succesfully logge
 ---
 Running Commands
 * This section was pretty straightforward where all I needed to do was type in different commands and see what they did
-* **tip**: to logout from connection to server, enter ctrd + d into terminal
+* **tip**: to logout from connection to server, enter `ctrd + d` into terminal
 
 Heres an example of some of these commands and their outputs: 
 ![Image](commands.jpg)
