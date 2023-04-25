@@ -8,7 +8,7 @@
 **Note**: If you already had VS code installed on your computer: you can skip this step!
 
 ---
-Remotely Conntecting to Course-Specific Account
+## Remotely Conntecting to Course-Specific Account
 
 * You start by opening terminal either on your computer's terminal or on VS code and styping in ssh followed by your course-specific account name formatted like this: `$ ssh cs15lsp23zz@ieng6.ucsd.edu`
 * Since it was my first time connecting to the server, I received a confirmation message asking if I wanted to connect to the server (said yes)
@@ -22,7 +22,7 @@ Assuming the above is followed, here is the output when you've succesfully logge
 ![Image](vscodescreen.jpg)
 
 ---
-Running Commands
+## Running Commands
 * This section was pretty straightforward where all I needed to do was type in different commands and see what they did
 * **tip**: to logout from connection to server, enter `ctrl + d` into terminal
 
