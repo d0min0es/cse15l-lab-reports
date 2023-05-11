@@ -40,13 +40,26 @@ class Handler implements URLHandler {
     }
 }
 ```
-
-![Image](screensh3.jpg)
+## Outputs
 ![Image](screensh1.jpg)
+
+## URL Inputs
+![Image](screensh3.jpg)
 ![Image](screensh2.jpg)
+
+### Screenshot 1 
+- The method called in the code shown above for the first screenshot was the handleRequest from the Handler class, which ends up getting called when the server gets a request
+- The relevant arguments and field values are `localhost:4000` and `/add-message?s=hello`, which together asks the server to append the string "hello"
+- In this context, the only field that impacts what the server output is the stringbuilder sb field which will append a different string followed by `/n` when provided a string argument
+
+### Screenshot 2
+- The method called in the code above for the second screenshot was also the handleRequest from the handler class, called when there's a server request
+- The relevant arguments and field values are `localhost:4000` and `/add-message?s=how%20are%20you`, which together asks the server to append the string "how are you" and the `%20` is notation for the server to include spaces between the separate string arguments
+- The specific request isn't changing any values of any relevant fields from the class because it's simply applying the handleRequest method with the addition of notation to include spaces between strings
 
 ## Part 2: Failing Output
 ![Image](testreverse.jpg)
+
 ```
 @Test
 public void testReversed() {
