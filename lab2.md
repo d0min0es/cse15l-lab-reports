@@ -105,8 +105,9 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
 ```
-- The issue with the code in the before code that produces a failing test result is that the for loop is assigning reversed values from `newArray` to the original `arr`. Additionally, the method is returning the orginial array, meaning that the values of 0 from `newArray` are replacing the orginal int values in `arr`. 
-- The way to fix these errors would be to swap `arr[i]` with `newArray[i]`, `newArray[...]` with `arr[...]`, and then changing the return array to `newArray` in order for the new array to get assigned values from the array used in the method parameter
+The issue with the code in the before code that produces a failing test result is that the for loop is assigning reversed values from `newArray` to the original `arr`. Additionally, the method is returning the orginial array, meaning that the values of 0 from `newArray` are replacing the orginal int values in `arr`. 
+The way to fix these errors would be to swap `arr[i]` with `newArray[i]`, `newArray[...]` with `arr[...]`, and then changing the return array to `newArray` in order for the new array to get assigned values from the array used in the method parameter
+
 ---
 ## Part 3: Week 2/3 Recap
 Something interesting I learned from week 2 of CSE15L lab was that there were three different ieng6 computers could be accessed and they aren't allowed the run the same port at the same time as others using the same computer. Ports are used for computers to relay internet and network messages when connected to a server. Therefore, if several students using an `ieng6-201` computer have to select different port numbers in order to run their web server.
