@@ -40,6 +40,8 @@ preface.txt
 ```
 The grep -l command is an example of a useful command line option that prints out the names of the text files within the current directory that contain the string argument. This command is useful if trying to categorize files based on if they contain a particular string or not. 
 
+---
+
 ### **Grep -c Command**
 
 Example 1
@@ -58,6 +60,8 @@ Steves-MacBook-Pro:911report dom$ grep -c Marty chapter-13.3.txt
 3
 ```
 The grep -c command takes in a string argument and provides an integer output of the number of lines in a text file containing the string. This is also a useful command option because it's another way to categorize the prevalence of a string argument.
+
+---
 
 ### **Grep -n Command**
 
@@ -116,6 +120,8 @@ Steves-MacBook-Pro:911report dom$ grep -n "WARTIME" chapter-10.txt
 4:            WARTIME
 ```
 The grep -n command takes in a string and text file and prints the lines in the text file, as well as the number of the line, that contains the string argument. To get a detailed look of the text file and the amount of times a string appears, then the grep -n command can provide some use.
+
+---
 
 ### **Grep -i Command**
 
@@ -193,5 +199,7 @@ Steves-MacBook-Pro:911report dom$ grep -i north chapter-13.2.txt
                 northeast bound and descending out of twelve thousand nine hundred feet in a rapid
 ```    
 The grep -i command takes a string and text file argument and its output are all the lines that contain the string, not case-sensitive. This is important because if a string of interest is likely to be written in both lower and upper case, then using grep -i is helpful.
+
+---
 
 **Note**: For each of the 4 grep command line options, I used the site [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/) as my source for understanding the idea behind each grep option.
