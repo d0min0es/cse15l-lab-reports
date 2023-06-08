@@ -62,10 +62,9 @@ As you could see, all the tests have passed!
 ## Step 9 - Commit and push the resulting change to your Github account 
 Since all the tests passed, we can commit and push the file into the *GitHub* repository by typing `$ git add *` to select all the files
 in the curretn directory and `$ git commit -m "<updated file>"` to take a snapshot of all the changes made to the file and the message 
-that you want to put after changing the file. It should look like this:
+that you want to put after changing the file. However I cleared my terminal and already performed the command earlier so the output I got it shown below:
 
-<img width="358" alt="image" src="https://github.com/lurany/cse15l-lab-reports/assets/130108693/d1e62dd0-d63a-4550-944c-c60a933bc43a">
-
+<img width="460" alt="Screen Shot 2023-06-07 at 11 49 26 PM" src="https://github.com/d0min0es/cse15l-lab-reports/assets/130091836/6b5e1e89-1a70-475f-b36b-4993b0847b1f">
 
 
 Lastly, I typed `$ git push` to forward the changes I made into my repository on GitHub:
