@@ -70,4 +70,5 @@ that you want to put after changing the file. It should look like this:
 
 Lastly, I typed `$ git push` to forward the changes I made into my repository on GitHub:
 
+
 ![Screen Shot 2023-06-07 at 11 45 23 PM](https://github.com/d0min0es/cse15l-lab-reports/assets/130091836/7020da86-5cb3-431a-9844-df86d38fa627)
