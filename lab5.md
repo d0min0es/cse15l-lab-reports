@@ -1,4 +1,4 @@
-# Lab Report 5: Debugging Scnario/Reflection
+# Lab Report 5: Debugging Scenario/Reflection
 
 ## Part 1: Debugging Scenario
 ![image](https://github.com/d0min0es/cse15l-lab-reports/assets/130091836/0b0640af-209e-4055-b44f-e2c72c6650fb)
