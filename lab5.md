@@ -8,6 +8,8 @@ The code that the student was referencingn in their edStem from `ListExamples.ja
 <img width="456" alt="image" src="https://github.com/d0min0es/cse15l-lab-reports/assets/130091836/bb625856-d142-44db-bb30-54a7799bc402">
 
 The bug that showed was:
+<img width="560" alt="image" src="https://github.com/d0min0es/cse15l-lab-reports/assets/130091836/42d2ff43-86c3-4afb-8f0d-6f271349ba0b">
+
 
 
 ## TA Response
