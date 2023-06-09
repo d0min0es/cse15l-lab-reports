@@ -2,6 +2,7 @@
 
 ## Part 1: Debugging Scenario
 ![image](https://github.com/d0min0es/cse15l-lab-reports/assets/130091836/0b0640af-209e-4055-b44f-e2c72c6650fb)
+<img width="456" alt="image" src="https://github.com/d0min0es/cse15l-lab-reports/assets/130091836/bb625856-d142-44db-bb30-54a7799bc402">
 
 ![Image](screenshot.jpg)
 ![Image](screenshot1.jpg)
