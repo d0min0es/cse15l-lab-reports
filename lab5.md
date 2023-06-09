@@ -7,9 +7,14 @@ The code that the student was referencingn in their edStem from `ListExamples.ja
 
 <img width="456" alt="image" src="https://github.com/d0min0es/cse15l-lab-reports/assets/130091836/bb625856-d142-44db-bb30-54a7799bc402">
 
+The bug that showed was:
 
 
-The student's error ended up being that their list of files and driectories didn't match the names of the files and directories they were trying to use within their bash script.
+## TA Response
+Based on the output that you screenshotted, you were expecting to run a series of tests. However, it fails as the array lengths were different. In other words, something in your code is affecting the size of the array and is showing when your test isn't running. By looking at your code, I would check out line 26 of your  code, where the lengths of `index1` and `index2` are different. It might be wise to start the index to 0 instead of 1000 when running it through a loop, when `index1` doesn't starting from that. 
+
+## Student's Response
+
 
 ## Part 2: Reflection
 
