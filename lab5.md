@@ -17,7 +17,7 @@ The bug that showed was:
 Based on the output that you screenshotted, you were expecting to run a series of tests. However, it fails as the array lengths were different. In other words, something in your code is affecting the size of the array and is showing when your test isn't running. By looking at your code, I would check out line 26 of your  code, where the lengths of `index1` and `index2` are different. It might be wise to start the index to 0 instead of 1000 when running it through a loop, when `index1` doesn't starting from that. 
 
 ## Student's Response
-
+Your suggestion actually really helped me out. Starting index1 at 1000 was affecting the rest of my code as any conditional statements that ran were when `index1` was smaller than `list1`. I was able to fix this by navigating to the edit feature on my terminal using `nano ListExamples.java` so I could make the changes you described above. I then closed and saved my changes and then compiled and ran the tests again to find that they worked. 
 
 ## Part 2: Reflection
 
