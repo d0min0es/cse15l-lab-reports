@@ -1,4 +1,5 @@
 # Lab Report 4
+
 ## Step 4 - Log into ieng6
 
 <img width="564" alt="Screen Shot 2023-06-07 at 10 27 04 PM" src="https://github.com/d0min0es/cse15l-lab-reports/assets/130091836/11f0e56a-706e-4428-aeb6-2a3cbdbfd7fc">
@@ -34,6 +35,7 @@ in order to compile the files. Afterwards, I did the same thing `<Ctrl-C> java -
 command to run tests on the terminal. As we could see on the screenshot above, the output showed that the test has 1 failure. 
 
 ## Step 7 - Edit the code file to fix the failing test
+
 Now that we know there is one failure on the tests, we can do open a text editor in the terminal by simply typing `$ nano ListExamples.java`. This will allow 
 us to edit the code inside the terminal. It should look something like this:
 
@@ -51,6 +53,7 @@ after making all these changes, I typed `<Ctrl-O><enter>` to write and save the 
 text editor. 
 
 ## Step 8 - Run the tests, demonstrating that they now succeed
+
 Now that we have finally made changes on the code, it is obvious that we would want to rerun the tests to see if it would pass or not. Since
 I have previously typed all those commands in the terminal, this time I simply just need to type `<up><up><up><enter>` to go back to my compile
 command then `<up><up><enter>` to run the tests. 
@@ -60,6 +63,7 @@ command then `<up><up><enter>` to run the tests.
 As you could see, all the tests have passed!
 
 ## Step 9 - Commit and push the resulting change to your Github account 
+
 Since all the tests passed, we can commit and push the file into the *GitHub* repository by typing `$ git add *` to select all the files
 in the curretn directory and `$ git commit -m "<updated file>"` to take a snapshot of all the changes made to the file and the message 
 that you want to put after changing the file. However I cleared my terminal and already performed the command earlier so the output I got it shown below:
